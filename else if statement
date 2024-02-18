@@ -1,0 +1,39 @@
+import java.util.Scanner;
+ public class java{
+    public static void main(String[] args) {
+        int n1,n2,choice,result;
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" 1 for Add \n 2 for Sub \n 3 for Mul \n 4 for Div \n ");
+        System.out.println("Enter First number");
+        n1=sc.nextInt();
+        System.out.println("Enter second number");
+        n2=sc.nextInt();
+        System.out.println("Enter the choice:");
+        choice=sc.nextInt();
+        if(choice==1){
+            result=n1+n2;
+            System.out.println("RESULT="+result);
+            result=sc.nextInt();
+            
+        }
+        else if(choice==2){
+            result=n1-n2;
+            System.out.println("RESULT="+result);
+            result=sc.nextInt();
+            
+        }
+        else if(choice==3){
+            result=n1*n2;
+            System.out.println("RESULT="+result);
+            result=sc.nextInt();
+        }
+        else if(choice==4){
+            result=n1/n2;
+            System.out.println("RESULT="+result);
+            result=sc.nextInt();
+        }
+        
+        
+    }    
+        
+}
